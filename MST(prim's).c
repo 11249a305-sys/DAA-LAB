@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
 
@@ -50,7 +50,7 @@ void primMST(int graph[V][V])
 
   
     key[0] = 0;
-    parent[0] = -1
+    parent[0] = -1;
     for (int count = 0; count < V - 1; count++)
     {
         
