@@ -11,7 +11,7 @@ struct Edge
     int src, dest, weight;
 };
 
-/
+
 int parentUF[V];
 
 
